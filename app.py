@@ -3,7 +3,9 @@ import pandas as pd
 from pathlib import Path
 import json
 from io import BytesIO
+
 st.set_page_config(page_title="CheckList Auditoría", layout="wide")
+
 st.write("💡 La app está corriendo correctamente, ¡listo para cargar el archivo!")
 
 # Configuración persistente

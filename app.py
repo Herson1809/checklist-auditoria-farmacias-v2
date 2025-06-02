@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 from io import BytesIO
 st.write("💡 La app está corriendo correctamente, ¡listo para cargar el archivo!")
-
+st.set_page_config(page_title="CheckList Auditoría", layout="wide")
 # Configuración persistente
 CONFIG_FILE = "audit_config.json"
 

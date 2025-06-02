@@ -7,6 +7,7 @@ from io import BytesIO
 # Esta línea debe ir justo después de los imports, antes de cualquier otro comando de Streamlit
 st.set_page_config(page_title="CheckList Auditoría", layout="wide")
 
+# Ahora sí, cualquier comando de Streamlit, por ejemplo:
 st.write("💡 La app está corriendo correctamente, ¡listo para cargar el archivo!")
 
 # Configuración persistente
